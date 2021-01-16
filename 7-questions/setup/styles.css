@@ -211,6 +211,7 @@ Questions
   margin-bottom: 0;
   letter-spacing: var(--spacing);
   color: var(--clr-grey-1);
+  font-weight: bold;
 }
 .question-btn {
   font-size: 1.5rem;
@@ -231,7 +232,7 @@ Questions
   margin-bottom: 0;
 }
 /* hide text */
-/* .question-text {
+.question-text {
   display: none;
 }
 .show-text .question-text {
@@ -245,4 +246,4 @@ Questions
 }
 .show-text .plus-icon {
   display: none;
-} */
+}
