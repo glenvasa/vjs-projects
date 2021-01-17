@@ -135,9 +135,9 @@ function filterButtons() {
   });
   displayButtons = displayButtons.join("");
   buttonContainer.innerHTML = displayButtons;
-  const filterBtns = document.querySelectorAll(".filter-btn");
 
   //filter menu items to display
+  const filterBtns = document.querySelectorAll(".filter-btn");
   filterBtns.forEach(function (btn) {
     btn.addEventListener("click", function (e) {
       const category = e.currentTarget.dataset.id;
